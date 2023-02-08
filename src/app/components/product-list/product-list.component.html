@@ -1,0 +1,29 @@
+<section style="background-color: #eee;">
+  <button type="button" class="btn btn-primary me-2 " (click)="resetProducts()">
+    Reset
+  </button>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-12 col-lg-4 mb-4 mb-lg-0 py-2" *ngFor="let tmpProduct of products">
+        <div class="card text-black">
+          <div class="card-body">
+            <div>
+              <div class="d-flex justify-content-between">
+                <span>{{tmpProduct.category}}</span>
+              </div>
+              <div class="d-flex justify-content-between">
+                <span>{{tmpProduct.name}}</span><span>{{tmpProduct.price | acurrencyChange}}</span>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <button type="button" class="btn btn-danger flex-fill me-1" (click)="deleteProduct(tmpProduct.id)">Delete</button>
+              <button type="button" class="btn btn-primary flex-fill ms-1" data-mdb-ripple-color="dark" (click)="addToCar(tmpProduct)">
+                Add to Car
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

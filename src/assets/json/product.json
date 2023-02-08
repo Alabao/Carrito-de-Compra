@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Producto 1",
+    "category": "Category 1",
+    "price": 12.2
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "category": "Category 1",
+    "price": 42.34
+  },
+  {
+    "id": 3,
+    "name": "Producto 3",
+    "category": "Category 1",
+    "price": 16.00
+  },
+  {
+    "id": 4,
+    "name": "Producto 4",
+    "category": "Category 2",
+    "price": 43.54
+  },
+  {
+    "id": 5,
+    "name": "Producto 5",
+    "category": "Category 2",
+    "price": 23.05
+  },
+  {
+    "id": 6,
+    "name": "Producto 6",
+    "category": "Category 2",
+    "price": 12.1
+  }
+]
